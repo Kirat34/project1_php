@@ -1,5 +1,10 @@
 
 -- Part 2 (Project 1)
+
+-- Using Database bookstore
+
+Use bookstore;
+
 -- Inserting data into bookinventory table
 
 Insert into bookinventory(bookid,name,author,price,quantity)
