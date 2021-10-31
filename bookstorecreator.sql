@@ -16,3 +16,11 @@ price int,
 quantity int,
 PRIMARY KEY (bookid)
 );
+
+-- Creating Orders table
+Create table orders(
+orderid int auto_increment,
+FirstName varchar(50),
+Lastname varchar(50),
+Item_purchased int ,
+PRIMARY KEY (orderid));
